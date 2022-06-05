@@ -41,6 +41,7 @@ public class MainActivity<arrayAdapter> extends AppCompatActivity {
                 Editable temp=name.getText();
                 friendsArrayList.add(temp.toString());
                 arrayAdapter.notifyDataSetChanged();
+                name.getText().clear();
             }
         });
 
